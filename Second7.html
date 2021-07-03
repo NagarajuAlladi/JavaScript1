@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document7</title>
+</head>
+<body>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <script>
+        var a=10;
+        let b=20;
+        const c=30;
+        document.getElementById('demo1').innerHTML=a;
+        document.getElementById('demo2').innerHTML=b;
+        document.getElementById('demo3').innerHTML=c;
+    </script>
+
+    <p id="demo4"></p>
+    <script>
+
+        let x=10;
+
+        {
+            let y=20;
+        }
+
+        {
+            let z=30;
+        }
+
+        document.getElementById('demo4').innerHTML=x;
+    </script>
+
+    <p id="demo5"></p>
+
+    <script>
+
+        var e=20;
+
+        var e='Samera';
+
+        document.getElementById('demo5').innerHTML=e;
+    </script>
+</body>
+</html>
